@@ -1,8 +1,69 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../src/images/bosporus_bridge_dusk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 15rem;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 5rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.5;
+}
+
+header a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 3rem 1rem;
+  }
+
+  header h1 {
+    font-size: 4rem;
+  }
+
+  header h2 {
+    font-size: 2rem;
+  }
+
+  header h3 {
+    font-size: 1rem;
+  }
 }
