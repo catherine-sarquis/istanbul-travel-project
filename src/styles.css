@@ -68,6 +68,7 @@ footer {
   gap: 2rem;
   padding: 4rem 0;
   color: white;
+  max-width: 1400px;
 }
 
 .footer-column {
