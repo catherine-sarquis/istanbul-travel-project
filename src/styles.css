@@ -50,12 +50,59 @@ header a {
   padding: 1rem 2rem;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../src/images/bosporus_bridge_dusk.jpg");
+  background-image: linear-gradient(rgba(1, 4, 11, 0.7), rgba(1, 4, 11, 0.6)), url("../src/images/bosporus_bridge_dusk.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 2fr;
+  gap: 2rem;
+  padding: 4rem 0;
   color: white;
 }
+
+.footer-column {
+  padding: 0 1rem;
+}
+
+footer h4 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+footer p,
+footer a {
+  font-weight: 300;
+}
+
+footer ul {
+  padding: 0;
+  ;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
 
 @media (max-width: 900px) {
   header {
