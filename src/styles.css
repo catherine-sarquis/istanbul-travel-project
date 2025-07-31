@@ -50,6 +50,13 @@ header a {
   padding: 1rem 2rem;
 }
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../src/images/bosporus_bridge_dusk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 3rem 1rem;
