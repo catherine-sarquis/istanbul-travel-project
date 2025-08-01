@@ -242,6 +242,11 @@ footer a {
     font-size: 1rem;
   }
 
+  section {
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+
   .main-grid {
     grid-template-columns: 1fr;
   }
