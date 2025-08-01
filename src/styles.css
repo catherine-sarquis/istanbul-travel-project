@@ -153,8 +153,6 @@ address {
   margin-bottom: 2rem;
 }
 
-
-
 .card-heading {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -178,6 +176,26 @@ iframe {
 
 .card-body {
   padding: 0 2rem;
+}
+
+.photos-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  overflow: hidden;
+}
+
+.photos-grid a {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+.photos-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 footer {
@@ -265,6 +283,10 @@ footer a {
 
   iframe {
     aspect-ratio: 16 / 9;
+  }
+
+  .photos-grid {
+    grid-template-columns: 1fr 1fr;
   }
 
   .footer-grid {
