@@ -1,3 +1,20 @@
+html[lang="ar"] body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+html[lang="ar"] .hero h3 {
+  font-weight: 700;
+}
+
+html[lang="ar"] p {
+  font-size: 1.4rem;
+}
+
+html[lang="ar"] .eateries p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
 .font-weight-bold {
   font-weight: 700;
 }
@@ -10,6 +27,10 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: black;
   margin: 0;
+}
+
+strong {
+  font-weight: 500;
 }
 
 .container {
