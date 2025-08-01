@@ -178,6 +178,10 @@ iframe {
   padding: 0 2rem;
 }
 
+.gallery {
+  text-align: center;
+}
+
 .photos-grid {
   display: grid;
   gap: 2rem;
