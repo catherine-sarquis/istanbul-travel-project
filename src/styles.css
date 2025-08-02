@@ -6,6 +6,10 @@ html[lang="ar"] .hero h3 {
   font-weight: 700;
 }
 
+[dir="ltr"] {
+  font-family: "Poppins", sans-serif;
+}
+
 html[lang="ar"] p,
 html[lang="ar"] a {
   font-size: 1.4rem;
@@ -43,6 +47,10 @@ body {
 
 strong {
   font-weight: 500;
+}
+
+html[lang="ar"] strong {
+  font-weight: normal;
 }
 
 .container {
