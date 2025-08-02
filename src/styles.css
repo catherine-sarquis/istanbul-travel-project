@@ -15,9 +15,17 @@ html[lang="ar"] a {
   font-size: 1.4rem;
 }
 
+[dir="ltr"] {
+  font-size: 1rem;
+}
+
 html[lang="ar"] .eateries p {
   font-size: 1.2rem;
   line-height: 1.6rem;
+}
+
+html[lang="ar"] .eateries [dir="ltr"] {
+  font-size: 1rem;
 }
 
 .font-weight-bold {
