@@ -1,4 +1,4 @@
-# 🇹🇷 Ramadan in Istanbul: Journeying for the Soul
+# 🇹🇷 Ramadan in Istanbul
 
 ## Project Overview
 
