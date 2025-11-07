@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project is a single-page, fully **responsive travel inspiration website** created as the final portfolio piece for the **SheCodes Responsive workshop**. It focuses on experiencing the final nights of Ramadan in the historical and vibrant city of Istanbul, Turkey.
+This project is a single-page, fully **responsive travel inspiration website** created as the final portfolio piece for the **SheCodes Responsive workshop**. It focusses on experiencing the final nights of Ramadan in the historical and vibrant city of Istanbul, Turkey.
 
-The core goal was to implement the principles of **responsive design** using modern HTML and CSS, ensuring a seamless and beautiful viewing experience across all screen sizes—from mobile phones to large desktop displays.
+The core goal was to implement the principles of **responsive design** using modern HTML and CSS, ensuring a seamless and beautiful viewing experience across all screen sizes; from mobile phones to large desktop displays.
 
 ---
 
