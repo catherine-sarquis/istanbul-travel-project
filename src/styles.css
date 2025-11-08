@@ -48,10 +48,25 @@ html[lang="ar"] .letter-spacing {
 }
 
 .language-selection {
+  width: 90px;
+  height: 30px;
   margin: 3rem;
-  padding: 0.6rem;
-  border-radius: 0;
+  border-radius: 2px;
   border: none;
+  font-size: medium;
+}
+
+#language-selection {
+  background-color: #000;
+  color: #fff;
+}
+
+#language-selection::before {
+  border-bottom: var(--size) solid #fff;
+}
+
+.language-selection::after {
+  border-top: var(--size) solid #fff;
 }
 
 body {
